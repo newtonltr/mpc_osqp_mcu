@@ -74,8 +74,7 @@ $$
 \theta_2(k+1) \\
 \theta_3(k+1) \\
 \theta_4(k+1)
-\end{bmatrix}
-=
+\end{bmatrix}=
 \begin{bmatrix}
 1 & 0 & 0 & 0 \\
 0 & 1 & 0 & 0 \\
@@ -87,8 +86,7 @@ $$
 \theta_2(k) \\
 \theta_3(k) \\
 \theta_4(k)
-\end{bmatrix}
-+
+\end{bmatrix}+
 \begin{bmatrix}
 T_s & 0 & 0 & 0 \\
 0 & T_s & 0 & 0 \\
@@ -242,13 +240,11 @@ $$
   当N=3时，X形式如下：
 
 $$
-X =
-\begin{bmatrix}
+X =\begin{bmatrix}
 x(k+1|k) \\
 x(k+2|k) \\
 x(k+3|k)
-\end{bmatrix}
-=
+\end{bmatrix}=
 \begin{bmatrix}
 A \\
 A^2 \\
@@ -1296,4 +1292,3 @@ $$
 - $q = \mathcal{B}^T \bar{Q} (\mathcal{A}x(k) - \bar{r})$
 
 ---
-
